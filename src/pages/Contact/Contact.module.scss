@@ -1,0 +1,25 @@
+.contactSection {
+	padding: 210px 0 100px;
+
+	.name {
+		text-align: center;
+		color: #000;
+	}
+
+	.address {
+		text-align: center;
+		margin-bottom: 40px;
+		
+		a {
+			text-decoration: none;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	.contactIcons {
+		display: grid;
+		justify-items: center;
+		row-gap: 20px;
+	}
+}

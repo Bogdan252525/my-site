@@ -1,0 +1,57 @@
+.hero {
+  padding: 250px 0 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+	@media (max-width: 960px) {
+		padding: 170px 0 70px;
+		grid-template-columns: auto;
+		justify-content: center;
+		justify-items: center;
+	}
+
+  .codeImg {
+    max-width: 420px;
+    max-height: 300px;
+
+		@media (max-width: 960px) {
+			margin-bottom: 30px;
+		}
+		@media (max-width: 450px) {
+			max-width: 344px;
+   		max-height: 244px;
+		}
+  }
+
+  .heroText {
+    display: grid;
+
+    .heroTitle {
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 54px;
+      line-height: 79px;
+
+      color: #000000;
+    }
+    .heroDescription {
+      margin-bottom: 15px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    .emailLink {
+      justify-self: center;
+      width: 160px;
+      height: 52px;
+      background: #34547a;
+			border-radius: 10%;
+			padding: 13px 42px;
+
+      text-decoration: none;
+      line-height: 26px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+  }
+}

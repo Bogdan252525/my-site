@@ -1,0 +1,15 @@
+.technologyItem {
+	display: grid;
+
+	.iconItem {
+		justify-self: center;
+		margin-bottom: 5px;
+	}
+
+	.nameItem {
+		color: #000;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+

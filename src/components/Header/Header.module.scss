@@ -1,0 +1,27 @@
+.header {
+	position: fixed;
+	z-index: 3;
+  width: 100%;
+  min-height: 110px;
+  background-color: #34547a;
+
+  .headerInner {
+    min-height: 110px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+
+		@media (max-width: 630px) {
+			grid-template-columns: auto;
+			justify-content: center;
+			justify-items: center;
+		}
+
+    .headerNav {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      column-gap: 42px;
+    }
+  }
+}

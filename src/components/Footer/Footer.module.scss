@@ -1,0 +1,23 @@
+.footer {
+	background-color: #34547a;
+	height: 100px;
+
+	.footerInner {
+		display: grid;
+		grid-template-columns: auto auto;
+		align-items: center;
+    justify-content: space-between;
+		height: 100px;
+
+		.footerText {
+			font-size: 20px;
+			color: #fff;
+		}
+
+		.footerIcons {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			column-gap: 25px;
+		}
+	}
+}
