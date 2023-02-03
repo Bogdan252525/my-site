@@ -13,3 +13,10 @@ export interface ISocialItem {
 	page: string;
 	description: string
 }
+
+export interface IMyWorks {
+	image: string;
+	link: string;
+	description: string;
+	about: string;
+}

@@ -15,23 +15,23 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/my-site/"
             element={<Home />}
           />
           <Route
-            path="about"
+            path="/my-site/about"
             element={<About />}
           />
           <Route
-            path="work"
+            path="/my-site/work"
             element={<Work />}
           />
           <Route
-            path="contact"
+            path="/my-site/contacts"
             element={<Contact />}
           />
           <Route
-            path="*"
+            path="/my-site/*"
             element={<NotFound />}
           />
         </Routes>

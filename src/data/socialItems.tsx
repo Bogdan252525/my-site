@@ -3,7 +3,7 @@ import { ISocialItem } from "../types/types";
 const socialItems: ISocialItem[] = [
   {
     image: require("../img/socialIcons/linkedin.png"),
-    page: "https://www.linkedin.com/in/%D0%B1%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD-%D1%80%D1%83%D0%B4%D1%8C-432554260/",
+    page: "https://www.linkedin.com/in/bohdan-rud-432554260/",
     description: "Linked in",
   },
   {

@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
 import TechnologyBlock from "../../components/TechnologyBlock/TechnologyBlock";
 import code from "../../img/code.png";
 import styles from "./Home.module.scss";
@@ -21,12 +20,13 @@ const Home: FC = () => {
               to reach out to me any time. I prefer to talk over email,
               especially since we may be a few time zones away.
             </p>
-            <Link
+            <a
               className={styles.emailLink}
-              to="mailto:bogdan2516@gmail.com"
+              href="mailto:bogdan2516@gmail.com"
+							target="_blank"
             >
               write me
-            </Link>
+            </a>
           </div>
         </div>
       </div>
