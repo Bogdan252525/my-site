@@ -1,8 +1,14 @@
+html {
+	
+}
+
 body {
+	
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: #727272;
   background-color: #eeeff1;
+	margin: 0;
 }
 
 *,
@@ -15,11 +21,22 @@ p, h1, h2 {
   margin: 0;
 }
 
+.App {
+	overflow: hidden;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+}
+
 .container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.main {
+	
 }
 
 .header__menu {
