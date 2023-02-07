@@ -5,6 +5,10 @@
   min-height: 110px;
   background-color: #34547a;
 
+	@media (max-width: 920px) {
+		position: static;
+	}
+
   .headerInner {
     min-height: 110px;
     display: grid;
