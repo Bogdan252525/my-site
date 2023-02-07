@@ -1,6 +1,10 @@
 .contactSection {
 	padding: 210px 0 100px;
 
+	@media (max-width: 920px) {
+		padding: 100px 0 100px;
+	}	
+
 	.name {
 		text-align: center;
 		color: #000;

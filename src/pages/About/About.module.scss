@@ -1,8 +1,12 @@
 .aboutSection {
 	padding: 210px 0 100px;
 
+	@media (max-width: 920px) {
+		padding: 100px 0 100px;
+	}	
+
 	@media (max-width: 700px) {
-		padding: 170px 0 50px;
+		padding: 60px 0 50px;
 	}
 
 	.aboutInner {

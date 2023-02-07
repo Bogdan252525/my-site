@@ -3,12 +3,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-	@media (max-width: 960px) {
+  @media (max-width: 960px) {
 		padding: 170px 0 70px;
 		grid-template-columns: auto;
 		justify-content: center;
 		justify-items: center;
-	}
+	}	
+
+  @media (max-width: 920px) {
+		padding: 60px 0 70px;
+	}	
+
 
   .codeImg {
     max-width: 420px;
