@@ -12,7 +12,7 @@ const Contact: FC = () => {
             <a href="mailto:bogdan2516@gmail.com">mail: bogdan2516@gmail.com</a>
           </li>
           <li>
-            <a href="tel:+380631352388">tel: +380-63-135-23-88</a>
+            <a href="tel:+380955067089">tel: +380-95-506-70-89</a>
           </li>
           <li>
             <a
