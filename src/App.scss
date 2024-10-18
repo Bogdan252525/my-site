@@ -1,13 +1,8 @@
-html {
-	
-}
-
 body {
-	
   font-family: Roboto, sans-serif;
   font-size: 16px;
   color: #727272;
-  background-color: #eeeff1;
+  background: linear-gradient(to right, #eeeff1, #f5f5f7);
 	margin: 0;
 }
 
@@ -33,10 +28,6 @@ p, h1, h2 {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.main {
-	
 }
 
 .header__menu {

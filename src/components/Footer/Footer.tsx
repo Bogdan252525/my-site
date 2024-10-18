@@ -1,19 +1,19 @@
-import { FC } from "react";
-import styles from "./Footer.module.scss";
-import socialItems from "../../data/socialItems";
+import { FC } from 'react';
+import styles from './Footer.module.scss';
+import socialItems from '../../data/socialItems.tsx';
 
 const Footer: FC = () => {
   return (
     <div className={styles.footer}>
       <div className="container">
         <div className={styles.footerInner}>
-          <p className={styles.footerText}>&#169; 2023 Bohdan Rud</p>
+          <p className={styles.footerText}>&#169; 2024 Bohdan Rud</p>
           <div className={styles.footerIcons}>
             {socialItems.map((socialItem, i) => {
               return (
                 <a
                   target="_blank"
-									rel="noreferrer"
+                  rel="noreferrer"
                   href={socialItem.page}
                   key={i}
                 >

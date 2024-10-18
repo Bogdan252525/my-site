@@ -1,15 +1,14 @@
 export const hardSkills: string[] = [
-  "HTML 5",
-  "CSS 3",
-  "SASS",
-  "Java Script",
-  "React js",
-  "Redux Toolkit",
-  "npm",
-  "git",
-  "GitHub",
-  "Type Script",
-  "VS Code",
+  "HTML 5, CSS 3, SASS",
+	"Tailwind CSS",
+  "Java Script, Type Script,",
+	"React.js, Redux Toolkit",
+	"Next.js",
+  "npm, git, GitHub, VS Code",
+	"Node.js",
+	"Express.js, NestJS",
+	"PostgreSQL, MongoDB",
+	"GraphQL, Jest"
 ];
 
 export const softSkills: string[] = [

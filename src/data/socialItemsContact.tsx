@@ -1,23 +1,27 @@
-import { ISocialItem } from "../types/types";
+import { ISocialItem } from "../types/types.tsx";
+import facebookBlackImg from "../img/socialIcons/facebookBlack.png";
+import linkedinBlackImg from "../img/socialIcons/linkedinBlack.png";
+import githubBlackImg from "../img/socialIcons/githubBlack.png";
+import stackOverflowBlackImg from "../img/socialIcons/stackOverflowBlack.png";
 
 const socialItemsContact: ISocialItem[] = [
 	{
-    image: require("../img/socialIcons/facebookBlack.png"),
+    image: facebookBlackImg,
     page: "https://www.facebook.com/profile.php?id=100001822836901",
     description: "Facebook",
   },
   {
-    image: require("../img/socialIcons/linkedinBlack.png"),
+    image: linkedinBlackImg,
     page: "https://www.linkedin.com/in/bohdan-rud-432554260/",
     description: "Linked in",
   },
   {
-    image: require("../img/socialIcons/githubBlack.png"),
+    image: githubBlackImg,
     page: "https://github.com/Bogdan252525",
     description: "Git Hub",
   },
   {
-    image: require("../img/socialIcons/stackOverflowBlack.png"),
+    image: stackOverflowBlackImg,
     page: "https://stackoverflow.com/users/20921773/bohdan",
     description: "Stack overflow",
   },

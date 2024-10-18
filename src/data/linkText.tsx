@@ -1,10 +1,10 @@
-import { IDataLink } from '../types/types'
+import { IDataLink } from '../types/types.tsx'
 
 const linkText: IDataLink[] = [
-  { slug: "/my-site/", page: "HOME" },
-  { slug: "/my-site/about", page: "ABOUT" },
-  { slug: "/my-site/work", page: "WORK" },
-  { slug: "/my-site/contacts", page: "CONTACTS" },
+  { slug: "/home", page: "HOME" },
+  { slug: "/about", page: "ABOUT" },
+  { slug: "/work", page: "WORK" },
+  { slug: "/contacts", page: "CONTACTS" },
 ];
 
 export default linkText;

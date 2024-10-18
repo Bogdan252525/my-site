@@ -1,18 +1,17 @@
 import { FC } from "react";
 import styles from "./Header.module.scss";
-import linkText from "../../data/linkText";
+import linkText from "../../data/linkText.tsx";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../img/logo.png';
-
 
 
 const Header: FC = () => {
   return (
     <div className={styles.header}>
-      <div className="container">
+      <div className="container">			
         <div className={styles.headerInner}>
           <div className={styles.logo}>
-            <Link to="/my-site/"><img src={logo} alt="Logo" /></Link>
+            <Link to="/home"><img src={logo} alt="Logo" /></Link>
           </div>
           <div className={styles.headerNav}>
 						{linkText.map((text, i) => (

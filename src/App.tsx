@@ -1,45 +1,46 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.scss";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import NotFound from "./components/NotFound/NotFound";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import Home from "./pages/Home/Home";
-import Work from "./pages/Work/Work";
+import {Route, Routes} from 'react-router-dom';
+import './App.scss';
+import Footer from './components/Footer/Footer.tsx';
+import Header from './components/Header/Header.tsx';
+import NotFound from './components/NotFound/NotFound.tsx';
+import About from './pages/About/About.tsx';
+import Contact from './pages/Contact/Contact.tsx';
+import Home from './pages/Home/Home.tsx';
+import Work from './pages/Work/Work.tsx';
+
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <div className="App">
         <Header />
         <div className="main">
           <Routes>
             <Route
-              path="/my-site/"
+              path="/home"
               element={<Home />}
             />
             <Route
-              path="/my-site/about"
+              path="/about"
               element={<About />}
             />
             <Route
-              path="/my-site/work"
+              path="/work"
               element={<Work />}
             />
             <Route
-              path="/my-site/contacts"
+              path="/contacts"
               element={<Contact />}
             />
             <Route
-              path="/my-site/*"
+              path="/*"
               element={<NotFound />}
             />
           </Routes>
         </div>
         <Footer />
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 
