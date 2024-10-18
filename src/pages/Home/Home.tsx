@@ -23,7 +23,7 @@ const Home: FC = () => {
               with completing several Full-stack Development courses, I have
               gained practical experience in the field. Currently, I am honing
               my skills and seeking a position as a Front-end or Back-end
-              Developer. I am open to relocation and remote work opportunities. More information in the <Link to="/about">about</Link> menu and examples of some works in the <Link to="/work">work</Link> menu.
+              Developer. I am open to relocation and remote work opportunities. More information in the <Link to="/my-site/about">about</Link> menu and examples of some works in the <Link to="/my-site/work">work</Link> menu.
             </p>
             <a
               className={styles.emailLink}

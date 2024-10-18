@@ -11,7 +11,7 @@ const Header: FC = () => {
       <div className="container">			
         <div className={styles.headerInner}>
           <div className={styles.logo}>
-            <Link to="/home"><img src={logo} alt="Logo" /></Link>
+            <Link to="/my-site/home"><img src={logo} alt="Logo" /></Link>
           </div>
           <div className={styles.headerNav}>
 						{linkText.map((text, i) => (
