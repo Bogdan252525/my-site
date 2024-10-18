@@ -17,7 +17,7 @@ function App() {
         <div className="main">
           <Routes>
             <Route
-              path="/my-site/home"
+              path="/my-site"
               element={<Home />}
             />
             <Route
